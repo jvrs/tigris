@@ -1,5 +1,5 @@
 
-package hu.jvrs.lion.wsimport;
+package hu.jvrs.tigris.wsimport;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,19 +17,19 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.1
  * 
  */
-@WebServiceClient(name = "AfakulcsServiceBeanService", targetNamespace = "http://beans.services.ws.lion.jvrs.hu/", wsdlLocation = "http://localhost:7001/AfakulcsServiceBean/AfakulcsServiceBeanService?WSDL")
+@WebServiceClient(name = "AfakulcsServiceBeanService", targetNamespace = "http://beans.services.ws.leo.jvrs.hu/", wsdlLocation = "http://localhost:7001/AfakulcsServiceBean/AfakulcsServiceBeanService?WSDL")
 public class AfakulcsServiceBeanService
     extends Service
 {
 
     private final static URL AFAKULCSSERVICEBEANSERVICE_WSDL_LOCATION;
-    private final static Logger logger = Logger.getLogger(hu.jvrs.lion.wsimport.AfakulcsServiceBeanService.class.getName());
+    private final static Logger logger = Logger.getLogger(hu.jvrs.tigris.wsimport.AfakulcsServiceBeanService.class.getName());
 
     static {
         URL url = null;
         try {
             URL baseUrl;
-            baseUrl = hu.jvrs.lion.wsimport.AfakulcsServiceBeanService.class.getResource(".");
+            baseUrl = hu.jvrs.tigris.wsimport.AfakulcsServiceBeanService.class.getResource(".");
             url = new URL(baseUrl, "http://localhost:7001/AfakulcsServiceBean/AfakulcsServiceBeanService?WSDL");
         } catch (MalformedURLException e) {
             logger.warning("Failed to create URL for the wsdl Location: 'http://localhost:7001/AfakulcsServiceBean/AfakulcsServiceBeanService?WSDL', retrying as a local file");
@@ -43,7 +43,7 @@ public class AfakulcsServiceBeanService
     }
 
     public AfakulcsServiceBeanService() {
-        super(AFAKULCSSERVICEBEANSERVICE_WSDL_LOCATION, new QName("http://beans.services.ws.lion.jvrs.hu/", "AfakulcsServiceBeanService"));
+        super(AFAKULCSSERVICEBEANSERVICE_WSDL_LOCATION, new QName("http://beans.services.ws.leo.jvrs.hu/", "AfakulcsServiceBeanService"));
     }
 
     /**
@@ -53,7 +53,7 @@ public class AfakulcsServiceBeanService
      */
     @WebEndpoint(name = "AfakulcsServiceBeanPort")
     public AfakulcsServiceBean getAfakulcsServiceBeanPort() {
-        return super.getPort(new QName("http://beans.services.ws.lion.jvrs.hu/", "AfakulcsServiceBeanPort"), AfakulcsServiceBean.class);
+        return super.getPort(new QName("http://beans.services.ws.leo.jvrs.hu/", "AfakulcsServiceBeanPort"), AfakulcsServiceBean.class);
     }
 
     /**
@@ -65,7 +65,7 @@ public class AfakulcsServiceBeanService
      */
     @WebEndpoint(name = "AfakulcsServiceBeanPort")
     public AfakulcsServiceBean getAfakulcsServiceBeanPort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://beans.services.ws.lion.jvrs.hu/", "AfakulcsServiceBeanPort"), AfakulcsServiceBean.class, features);
+        return super.getPort(new QName("http://beans.services.ws.leo.jvrs.hu/", "AfakulcsServiceBeanPort"), AfakulcsServiceBean.class, features);
     }
 
 }

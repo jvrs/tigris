@@ -1,5 +1,5 @@
 
-package hu.jvrs.lion.wsimport;
+package hu.jvrs.tigris.wsimport;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getAfakulcsKodEsById complex type.
+ * <p>Java class for getAfakulcsById complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="getAfakulcsKodEsById">
+ * &lt;complexType name="getAfakulcsById">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -26,10 +26,10 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getAfakulcsKodEsById", propOrder = {
+@XmlType(name = "getAfakulcsById", propOrder = {
     "arg0"
 })
-public class GetAfakulcsKodEsById {
+public class GetAfakulcsById {
 
     protected long arg0;
 

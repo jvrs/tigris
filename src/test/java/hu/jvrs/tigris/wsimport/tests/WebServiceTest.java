@@ -1,6 +1,6 @@
-package hu.jvrs.lion.wsimport.tests;
+package hu.jvrs.tigris.wsimport.tests;
 
-import hu.jvrs.lion.wsimport.AfakulcsServiceBean;
+import hu.jvrs.tigris.wsimport.AfakulcsServiceBean;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -21,7 +21,7 @@ public class WebServiceTest {
 	@Before
 	public void setUp() throws MalformedURLException {
 		URL url = new URL("http://localhost:7001/AfakulcsServiceBean/AfakulcsServiceBeanService?WSDL");
-        QName qname = new QName("http://beans.services.ws.lion.jvrs.hu/", "AfakulcsServiceBeanService"); 
+        QName qname = new QName("http://beans.services.ws.leo.jvrs.hu/", "AfakulcsServiceBeanService"); 
         Service service = Service.create(url, qname); 
         asb = service.getPort(AfakulcsServiceBean.class);
 	}

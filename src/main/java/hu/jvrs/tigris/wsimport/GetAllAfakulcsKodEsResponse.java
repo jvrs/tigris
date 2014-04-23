@@ -1,5 +1,5 @@
 
-package hu.jvrs.lion.wsimport;
+package hu.jvrs.tigris.wsimport;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

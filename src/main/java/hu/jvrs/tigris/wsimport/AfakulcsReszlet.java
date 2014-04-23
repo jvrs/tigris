@@ -1,5 +1,5 @@
 
-package hu.jvrs.lion.wsimport;
+package hu.jvrs.tigris.wsimport;
 
 import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -20,7 +20,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="adomertek" type="{http://www.w3.org/2001/XMLSchema}decimal" minOccurs="0"/>
- *         &lt;element name="afakulcsAlap" type="{http://beans.services.ws.lion.jvrs.hu/}afakulcsAlap" minOccurs="0"/>
+ *         &lt;element name="afakulcsAlap" type="{http://beans.services.ws.leo.jvrs.hu/}afakulcsAlap" minOccurs="0"/>
  *         &lt;element name="afakulcsReszletId" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="ervKezd" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
  *         &lt;element name="ervVege" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>

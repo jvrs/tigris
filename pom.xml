@@ -41,7 +41,7 @@
 									</wsdlUrls>
 									<keep>true</keep>
 									<verbose>true</verbose>
-									<packageName>hu.jvrs.lion.wsimport</packageName>
+									<packageName>hu.jvrs.tigris.wsimport</packageName>
 								</configuration>
 							</execution>
 						</executions>
